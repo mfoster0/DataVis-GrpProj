@@ -65,18 +65,42 @@ void loop() {
 
   int randomNumber1 = random(0, 181);
   int randomNumber2 = random(0, 181);
+  const char* curmonth = "December";
+  int curyear = 2023;
+
 
   // Publish JSON messages to separate topics
   char jsonString1[10];
   char jsonString2[10];
+  char jsonString3[10];
+  char jsonString4[10];
+    char jsonString5[10];
+
+
 
   snprintf(jsonString1, sizeof(jsonString1), "%d", randomNumber1);
   snprintf(jsonString2, sizeof(jsonString2), "%d", randomNumber2);
+  snprintf(jsonString3, sizeof(jsonString3), "%d", 15);
+  snprintf(jsonString4, sizeof(jsonString4), "%s", curmonth);
+  snprintf(jsonString5, sizeof(jsonString4), "%d", curyear);
+
+
 
   client.publish("student/CASA0016/ucfnmut/random1", jsonString1);
   client.publish("student/CASA0016/ucfnmut/random2", jsonString2);
+  client.publish("student/CASA0016/ucfnmut/curData", jsonString3);
+  client.publish("student/CASA0016/ucfnmut/curMonth", jsonString4);
+  client.publish("student/CASA0016/ucfnmut/curyear", jsonString5);
+
+
+
   Serial.println(jsonString1);
   Serial.println(jsonString2);
+  Serial.println(jsonString3);
+  Serial.println(jsonString4);
+  Serial.println(jsonString5);
+
+
 
 
   delay(10000);
