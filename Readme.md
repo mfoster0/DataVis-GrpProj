@@ -1,9 +1,9 @@
----
-title: "CASA0019: Building the Sea Ice Extent Gauge"
-authors: "Group 6 - Ice Ice Baby (Mark Foster, Satria Mitra Utama, Qingyao Tang)"
-affiliation: "University College London"
-date: "12th January 2024"
----
+
+# CASA0019: Building the Sea Ice Extent Gauge#
+## Group 6 - Ice Ice Baby (Mark Foster, Satria Mitra Utama, Qingyao Tang)##
+## University College London ##
+## 12th January 2024 ##
+
 
 ## Overview
 This guide provides step-by-step instructions for building the Sea Ice Extent Gauge, a device designed to visualize changes in polar sea ice. This project, part of the CASA0019 course at University College London, aims to raise awareness about sea ice's importance and the impact of climate change.
