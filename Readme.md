@@ -1,8 +1,8 @@
 
 # CASA0019: Building the Sea Ice Extent Gauge#
-## Group 6 - Ice Ice Baby (Mark Foster, Satria Mitra Utama, Qingyao Tang)##
-## University College London ##
-## 12th January 2024 ##
+### Group 6 - Ice Ice Baby (Mark Foster, Satria Mitra Utama, Qingyao Tang)###
+### University College London ###
+### 12th January 2024 ###
 
 
 ## Overview
