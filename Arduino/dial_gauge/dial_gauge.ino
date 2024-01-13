@@ -7,6 +7,7 @@
 #include <SPI.h>
 #include <Wire.h>
 
+#include "arduino_secrets.h"
 
 char receivedMessage[5]; 
 char monthReceived[5]; // Store the received month
@@ -24,10 +25,6 @@ const char* password = "5rfzxumhPkya8nxA";
 // // Wifi at Gintare
 // const char* ssid = "4B87 Hyperoptic 1Gb Fibre 2.4Ghz";
 // const char* password = "47EAgzx59EFA";
-
-const char* mqttuser = "student";
-const char* mqttpass = "ce2021-mqtt-forget-whale";
-const char* mqtt_server = "mqtt.cetools.org";
 
 // Define topic to subscribe
 const char* north = "student/CASA0019/G6/data/north";
