@@ -102,6 +102,8 @@ The device uses servos to indicate sea ice extent and an OLED display to show da
 Use the Unity AR interface to access more detailed information and visualizations about sea ice changes.
 
 
+![Alt text](Assets/Pictures/ar.gif)
+
 ## 6. Additional Resources
 - [GitHub Repository](https://github.com/mfoster0/DataVis-GrpProj)
 - Assembly diagrams and schematics
