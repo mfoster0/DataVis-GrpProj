@@ -15,12 +15,12 @@ char yearReceived[5];  // Store the received year
 char stateReceived[5];  // Store the received year
 
 // // Wifi at home
-const char* ssid = "VM9486848";
-const char* password = "5rfzxumhPkya8nxA";
+// const char* ssid = "VM9486848";
+// const char* password = "5rfzxumhPkya8nxA";
 
 // CE Lab wifi
-// const char* ssid = "CE-Hub-Student";
-// const char* password = "casa-ce-gagarin-public-service";
+const char* ssid = "CE-Hub-Student";
+const char* password = "casa-ce-gagarin-public-service";
 
 // // Wifi at Gintare
 // const char* ssid = "4B87 Hyperoptic 1Gb Fibre 2.4Ghz";
